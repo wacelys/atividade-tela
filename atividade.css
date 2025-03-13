@@ -1,0 +1,125 @@
+body {
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(Tela2.png);
+    opacity: 0.80;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: #000000;
+    color: white;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    gap: 50px; 
+}
+
+.navbar-center img {
+    height: 70px; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #00c8ff;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6.5em;
+    font-weight: initial;
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-weight: initial;
+    font-size: 2.4em;
+    margin-top: 0px;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.60); /* Opacidade de 50% */
+    padding-top: 30px;
+
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+p{
+    
+    font-size: 1.5em;
+    text-indent: 2em;
+    margin: 0 230px;
+    margin-bottom: 20px;
+}
+
+.quantum-button {
+    background-color: #010111; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    font-family: 'Courier New', Courier, monospace; /* Fonte tecnológica */
+    font-weight: bold;
+    font-size: 1.2em; /* Tamanho da fonte */
+    padding: 15px 30px; /* Espaçamento interno */
+    border: 2px solid #009eb6; /* Borda com cor neon */
+    border-radius: 15px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: all 0.3s ease; /* Transição suave */
+    box-shadow: 0 0 10px #00ffcc; /* Sombra neon */
+}
+
+.quantum-button:hover {
+    background-color: #0087af; /* Cor de fundo ao passar o mouse */
+    color: #0a0a0a; /* Cor do texto ao passar o mouse */
+    box-shadow: 0 0 20px #00c8ff; /* Sombra neon mais intensa */
+}
+
+/* Estilo geral do footer */
+.footer {
+    width: auto;
+    background-color: #0a0a0a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo dos parágrafos */
+.footer p {
+    margin: 5px 0; /* Espaçamento entre as linhas */
+    font-size: 0.9em;
+}
